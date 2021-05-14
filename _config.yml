@@ -52,7 +52,7 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
   #twitter: frommidworld
-  youtube:UCOrRDOo8HNE4PuX_5Vu-QKg
+  youtube: https://www.youtube.com/channel/UCOrRDOo8HNE4PuX_5Vu-QKg
 
 # Text under the icons in footer
 footer-text: Copyright (c) 2021 hytvszz
