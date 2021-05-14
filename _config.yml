@@ -24,7 +24,7 @@ navigation:
     url: /
   - name: 关于
     url: /about
-  - name: 归档
+  - name: 博客
     url: /archive
   - name: 标签
     url: /tags
@@ -39,7 +39,7 @@ footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
-  zhihu: hytvszz
+  zhihu: 
   email: hytvszz@163.com
   facebook:
   flickr:
@@ -52,7 +52,7 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
   #twitter: frommidworld
-  youtube:
+  youtube:UCOrRDOo8HNE4PuX_5Vu-QKg
 
 # Text under the icons in footer
 footer-text: Copyright (c) 2021 hytvszz
