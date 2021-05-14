@@ -1,0 +1,1 @@
+今天用github搭建了自己的blog
