@@ -22,12 +22,12 @@ favicon: https://github.com/hytvszz/hytvszz.github.io/raw/master/images/favicon.
 navigation:
   - name: Home
     url: /
-  - name: Author
-    url: /about
   - name: Blogs
     url: /archive
   - name: Category
     url: /tags
+  - name: Author
+    url: /about
 
 # Pagination
 paginate: 8
