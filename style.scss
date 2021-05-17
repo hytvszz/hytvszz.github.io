@@ -341,10 +341,10 @@ img {
 }
 
 .sidebar {
-  padding: 20px 0;
 
   @include mobile {
     text-align: center;
+    padding: 20px 0;
   }
 }
 
