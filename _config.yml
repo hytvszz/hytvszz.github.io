@@ -63,8 +63,8 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: 4a64f08273aaf23f435d
-  clientSecret: a21259c2b3c9a09301088bedfa8d0462d142c3ff
+  clientID: 6e8b3be574d3c9f0703d
+  clientSecret: a858fba8f7d279a7341e2a4d1d9c9f90f6d17bfb
   repo: hytvszz.github.io
   owner: hytvszz
 
