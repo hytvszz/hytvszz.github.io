@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "巴拿马运河vs苏伊士运河vs马六甲海峡"
-date:   2021-05-17
-tags: [生活]
+title: "Hello World！"
+date:   2021-05-14
+tags: [日常]
 comments: true
 author: Zhen
 toc: false
 ---
-Hello
+# Hello World！
+今天搭建了我的博客，终于有了自己的博客啦，可以不被删帖不被封号没有敏感词了 ：）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTM4NDA2MiwtMzExNDQwMjk4XX0=
+eyJoaXN0b3J5IjpbLTI4MDg2MTIxNCwtMzExNDQwMjk4XX0=
 -->
