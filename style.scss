@@ -14,8 +14,8 @@
 /**************/
 /* BASE RULES */
 /**************/
-.wf-loading p,h1, h2, h3, h4, h5, h6 { visibility: hidden;}
-.wf-active p,h1, h2, h3, h4, h5, h6  { visibility: hidden;}
+.wf-loading  h1  { visibility: hidden;}
+.wf-active  h1 { visibility: hidden;}
 
 html {
   font-size: $base-font-size;
