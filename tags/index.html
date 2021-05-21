@@ -9,8 +9,9 @@ permalink: /tags/
 {% endif %}
 
 <div class="tags">
+  {{site.tags | sort}}
   <ul class="label">
-    {% for tag in site.tags | sort %}
+    {% for tag in site.tags %}
     <li>
       <a href="#{{ tag[0] }}">
         <span>{{ tag[0] }}</span>
