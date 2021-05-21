@@ -9,6 +9,7 @@ permalink: /tags/
 {% endif %}
 
 {% assign sorted_tags = site.tags | sort %}
+{% assign reverse_tags = site.tags | reverse %}
 
 <div class="tags">
   <ul class="label">
@@ -21,8 +22,9 @@ permalink: /tags/
     </li>
     {% endfor %}
   </ul>
-
-  {% for tag in site.tags reversed %}
+  
+  #you can also use {% for tag in site.tags reversed %}
+  {% for tag in reverse_tags %}
     <h2 id="{{ tag[0] }}">
       {{ tag[0] }}
     </h2>
