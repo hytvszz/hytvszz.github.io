@@ -30,7 +30,7 @@ navigation:
     url: /about
 
 # Pagination
-paginate: 2
+paginate: 8
 
 excerpt_separator: <!-- more -->
 
