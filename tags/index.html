@@ -8,9 +8,11 @@ permalink: /tags/
   <h2>No post found</h2>
 {% endif %}
 
+{% assign sorted_tags = site.tags | sort %}
+
 <div class="tags">
   <ul class="label">
-    {% for tag in site.tags %}
+    {% for tag in sorted_tags %}
     <li>
       <a href="#{{ tag[0] }}">
         <span>{{ tag[0] }}</span>
