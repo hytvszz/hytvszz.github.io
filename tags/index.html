@@ -23,7 +23,7 @@ permalink: /tags/
     {% endfor %}
   </ul>
   
-  {% for tag in reverse_tags %}
+  {% for tag in site.tags reversed %}
     <h2 id="{{ tag[0] }}">
       {{ tag[0] }}
     </h2>
