@@ -7,9 +7,9 @@ permalink: /archive/
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% endif %}
-
+{{ site.posts | sort: 'title' }}
 <ul class="archive">
-  {% for post in site.posts|sort: 'title' %}
+  {% for post in site.posts %}
     {% unless post.next %}
       <h2>{{ post.date | date: '%Y' }}</h2>
     {% else %}
