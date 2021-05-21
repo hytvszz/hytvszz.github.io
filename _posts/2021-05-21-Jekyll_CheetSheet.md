@@ -11,9 +11,9 @@ toc: false
 
 [CheetSheet点这里](https://gist.github.com/JJediny/a466eed62cee30ad45e2)
 
-for, If, variable, filters
+[CheetSheet点这里](https://gist.github.com/JJediny/a466eed62cee30ad45e2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTA2OTQ3MDUsMzIyODk1OTY5LC03Mj
+eyJoaXN0b3J5IjpbLTIxMTI4NTc1NjIsMzIyODk1OTY5LC03Mj
 A4NjM0NDUsLTk4Mjk2OTcxNywxMTQwMTkwMzk4LC03MjkzMjgz
 MTNdfQ==
 -->
