@@ -8,8 +8,7 @@ permalink: /tags/
   <h2>No post found</h2>
 {% endif %}
 
-{% assign sorted_tags = site.tags | sort %}
-{% assign reverse_tags = site.tags | reverse %}
+{% assign sorted_tags = site.tags | uri_escape | sort  %}
 
 <div class="tags">
   <ul class="label">
