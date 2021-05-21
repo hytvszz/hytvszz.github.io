@@ -13,11 +13,10 @@ toc: false
 
 Here is a simple example of Output:
 
-```
 Hello {{name}}
 Hello {{user.name}}
 Hello {{ 'tobi' }}
-```
+
 
 <a name="filters"></a>
 
@@ -385,6 +384,6 @@ the given variable instead of rendering it to the screen.
   </select>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Mjk2OTcxNywxMTQwMTkwMzk4LC03Mj
-kzMjgzMTNdfQ==
+eyJoaXN0b3J5IjpbLTcyMDg2MzQ0NSwtOTgyOTY5NzE3LDExND
+AxOTAzOTgsLTcyOTMyODMxM119
 -->
