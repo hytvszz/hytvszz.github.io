@@ -7,6 +7,8 @@ comments: true
 author: Zhen
 toc: false
 ---
+[中文官方文档点这里](http://jekyllcn.com/docs/templates/)
+
 There are two types of markup in Liquid: Output and Tag.
 
 * Output markup (which may resolve to text) is surrounded by
@@ -397,5 +399,5 @@ the given variable instead of rendering it to the screen.
   </select>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODIzNDg1MDBdfQ==
+eyJoaXN0b3J5IjpbMjA0MTkxODc2MiwtMjA4MjM0ODUwMF19
 -->
