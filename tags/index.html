@@ -11,6 +11,7 @@ permalink: /tags/
 {% assign sorted_tags = site.tags | sort  %}
 
 <div class="tags">
+  {{sorted_tags | xml_escape }}
   <ul class="label">
     {% for tag in sorted_tags %}
     <li>
