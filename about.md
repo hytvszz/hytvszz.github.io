@@ -11,7 +11,7 @@ permalink: /about/
 
 **What** do I do for living: Software Developer
 
-**What** I am dying for: Travelling, soccer, swimming, longboard
+**What** I am dying for: Travelling, soccer, diving, swimming, longboard
 
 **How** to contact me: email me <hytvszz@163.com>
 
