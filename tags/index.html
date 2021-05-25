@@ -19,11 +19,41 @@ permalink: /tags/
         <span class="count">#</span>
       </a>
     </li>
+    <li>
+      <a href="#地理">
+        <span>地理</span>
+        <span class="count">#</span>
+      </a>
+    </li>
+    <li>
+      <a href="#日常">
+        <span>日常</span>
+        <span class="count">#</span>
+      </a>
+    </li>
+    <li>
+      <a href="#生化">
+        <span>生化</span>
+        <span class="count">#</span>
+      </a>
+    </li>
+    <li>
+      <a href="#文史">
+        <span>文史</span>
+        <span class="count">#</span>
+      </a>
+    </li>
+    <li>
+      <a href="#运动">
+        <span>运动</span>
+        <span class="count">#</span>
+      </a>
+    </li>
   </ul>
   
   <ul class="label">
     {% for tag in sorted_tags %}
-      {% if tag[0] != "地理" %}
+      {% if tag[0] == "delete this if to make it working" %}
         <li>
           <a href="#{{ tag[0] }}">
             <span>{{ tag[0] }}</span>
