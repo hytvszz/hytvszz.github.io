@@ -10,7 +10,7 @@ permalink: /archive/
 
 <ul class="archive">
   {% for post in site.posts %}
-    {% if post.hidden == true %}
+    {% if post.hidden == false %}
       {% unless post.next %}
         <h2>{{ post.date | date: '%Y' }}</h2>
       {% else %}
