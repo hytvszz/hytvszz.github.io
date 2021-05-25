@@ -11,6 +11,20 @@ permalink: /tags/
 {% assign sorted_tags = site.tags | sort  %}
 
 <div class="tags">
+  
+  <ul class="label">
+    {% for tag in sorted_tags %}
+      {% if tag[0] != "地理" %}
+        <li>
+          <a href="#{{ tag[0] }}">
+            <span>{{ tag[0] }}</span>
+            <span class="count">{{ tag[1] | size }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  
   <ul class="label">
     {% for tag in sorted_tags %}
       {% if tag[0] != "地理" %}
