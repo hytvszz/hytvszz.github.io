@@ -62,7 +62,7 @@ layout: default
         </ul>
 	      
 	<span class="date">
-          &nbsp;(字数:{{ post.content | split: " " | size }})
+          &nbsp;(字数:{{ post.content | split: " " | strip_newlines | size }})
         </span>
       </div>
 	    
