@@ -62,8 +62,8 @@ layout: default
         </ul>
       </div>
 	    
-
-	     {% if post.content | size > 120000 %} 
+{% assign wordCount = {{ post.content | size }} %}
+      {% if wordCount > 12000 %} 
 	    <div class="entry" style="font-weight:300;">
         {{ post.excerpt | truncate: 200 }}
       </div>
