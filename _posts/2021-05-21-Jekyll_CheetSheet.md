@@ -8,15 +8,17 @@ author: Zhen
 toc: false
 published: true
 hidden: false
-excerpt : "test"
+excerpt : "[中文官方文档点这里](http://jekyllcn.com/docs/templates/)
+
+[CheetSheet点这里](https://gist.github.com/JJediny/a466eed62cee30ad45e2)"
 ---
 [中文官方文档点这里](http://jekyllcn.com/docs/templates/)
 
 [CheetSheet点这里](https://gist.github.com/JJediny/a466eed62cee30ad45e2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzcxNjI3MjgsLTIxMzE5ODAwMTksLT
-ExNzYyMzY1OTYsLTIxMTI4NTc1NjIsMzIyODk1OTY5LC03MjA4
-NjM0NDUsLTk4Mjk2OTcxNywxMTQwMTkwMzk4LC03MjkzMjgzMT
-NdfQ==
+eyJoaXN0b3J5IjpbMTU3NzQxNDc5MiwtMjAzNzE2MjcyOCwtMj
+EzMTk4MDAxOSwtMTE3NjIzNjU5NiwtMjExMjg1NzU2MiwzMjI4
+OTU5NjksLTcyMDg2MzQ0NSwtOTgyOTY5NzE3LDExNDAxOTAzOT
+gsLTcyOTMyODMxM119
 -->
