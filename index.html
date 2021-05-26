@@ -61,10 +61,19 @@ layout: default
           {% endfor %}
         </ul>
       </div>
+	    
+      {% assign wordCount = {{ post.content | size }} %}
+      {% if wordCount > 120 %}
+        <div class="entry">
+            {{ post.content | truncatewords:120}}
+        </div>
 
-      <div class="entry" style="font-weight:300;">
-        {{ post.excerpt | truncate: 200 }}
-      </div>
+        <a href="{{ site.baseurl }}{{ post.url}}" class="read-more">Read More</a>
+      {% else %}
+        {{ post.content }}
+      {% endif %}
+	    
+
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
