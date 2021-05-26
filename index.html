@@ -63,7 +63,7 @@ layout: default
       </div>
 	    
 
-	     {% if post.content | number_of_words > 120000 %} 
+	     {% if post.content | size > 120000 %} 
 	    <div class="entry" style="font-weight:300;">
         {{ post.excerpt | truncate: 200 }}
       </div>
