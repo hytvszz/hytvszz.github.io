@@ -22,7 +22,7 @@ layout: default
     </ul>
     
     <span class="date">
-      &nbsp;(字数:{{ page.content | size }})
+      &nbsp;(字数:{{ page.content | strip_html | strip_newlines | size }})
     </span>
   </div>
 
