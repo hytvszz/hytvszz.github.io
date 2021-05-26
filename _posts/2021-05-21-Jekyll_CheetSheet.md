@@ -3,7 +3,7 @@ layout: post
 title: "Jekyll CheetSheet (for github pages)"
 date:   2021-05-21
 tags: [IT]
-language : Chinese
+language : English
 comments: true
 author: Zhen
 toc: false
@@ -16,9 +16,9 @@ hidden: false
 [CheetSheet点这里](https://gist.github.com/JJediny/a466eed62cee30ad45e2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDEzMDIwOTIsLTMxODgyMDk4OSwtMT
-M1MzE4NDMzNSwxNTc3NDE0NzkyLC0yMDM3MTYyNzI4LC0yMTMx
-OTgwMDE5LC0xMTc2MjM2NTk2LC0yMTEyODU3NTYyLDMyMjg5NT
-k2OSwtNzIwODYzNDQ1LC05ODI5Njk3MTcsMTE0MDE5MDM5OCwt
-NzI5MzI4MzEzXX0=
+eyJoaXN0b3J5IjpbMTk0MTY2NjM1OSwtMzE4ODIwOTg5LC0xMz
+UzMTg0MzM1LDE1Nzc0MTQ3OTIsLTIwMzcxNjI3MjgsLTIxMzE5
+ODAwMTksLTExNzYyMzY1OTYsLTIxMTI4NTc1NjIsMzIyODk1OT
+Y5LC03MjA4NjM0NDUsLTk4Mjk2OTcxNywxMTQwMTkwMzk4LC03
+MjkzMjgzMTNdfQ==
 -->
