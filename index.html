@@ -64,7 +64,7 @@ layout: default
 	    
  
 	    <div class="entry" style="font-weight:300;">
-       {{ post.content | size }} {{ post.excerpt | truncate: 330 }}
+       {{ post.content | size }} {{ post.excerpt | strip_html | truncate: 200 }}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
