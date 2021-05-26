@@ -65,12 +65,12 @@ layout: default
 
 	     {% if post.content | number_of_words > 120000 %} 
 	    <div class="entry" style="font-weight:300;">
-        {{ post.content | truncate: 200 }}
+        {{ post.excerpt | truncate: 200 }}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
   {% else %}
-	    {{ post.content }}
+	    {{ post.excerpt }}
   {% endif %}
 	          
 
