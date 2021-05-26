@@ -21,9 +21,16 @@ layout: default
       {% endfor %}
     </ul>
     
-    <span class="date">
+    {% if page.language == "English" %}
+      <span class="date">
+      &nbsp;(字数:{{ page.content | split: " " | size }})
+      </span>
+    {% elsif page.language == "Chinese" %}   
+      <span class="date">
       &nbsp;(字数:{{ page.content | strip_html | strip_newlines | size }})
-    </span>
+      </span> 
+    {% endif %}
+    
   </div>
 
   
