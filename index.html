@@ -62,11 +62,14 @@ layout: default
         </ul>
 	      
 	{% if post.language == "English" %}
-	<h2>No post found</h2>
+		<span class="date">
+		  &nbsp;(字数:{{ post.content | split: " " | size }})
+		</span>
+	{% elseif post.language == "English" %}   
+		<span class="date">
+		  &nbsp;(字数:{{ post.content | strip_html | strip_newlines | size }})
+		</span> 
 	{% endif %}
-	<span class="date">
-          &nbsp;(字数:{{ post.content | size }})
-        </span>
       </div>
 	    
  
