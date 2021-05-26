@@ -65,13 +65,15 @@ layout: default
       {% assign wordCount = {{ post.content | size }} %}
       {% if wordCount > 120 %}
         <div class="entry">
-            {{ post.content | truncatewords:120}}
+            {{ post.content | truncate:120}}
         </div>
 
         <a href="{{ site.baseurl }}{{ post.url}}" class="read-more">Read More</a>
       {% else %}
         {{ post.content }}
       {% endif %}
+	    
+
 	    
     </article>
   {% endunless %}
