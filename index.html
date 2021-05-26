@@ -63,12 +63,16 @@ layout: default
       </div>
 	    
 
-	    
-	          <div class="entry" style="font-weight:300;">
-        {{ post.content | truncate: 200 }}
+	     {% if post.content | number_of_words > 120 %} 
+	    <div class="entry" style="font-weight:300;">
+        {{ post.content | truncatewords: 120 }}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+  {% else %}
+	    {{ post.content }}
+  {% endif %}
+	          
 
 	    
     </article>
