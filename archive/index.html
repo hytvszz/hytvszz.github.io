@@ -37,11 +37,37 @@ permalink: /archive/
 
 <br>
 
+<ul class="archive">
+  {% for post in site.posts %}
+    {% if post.hidden == false %}
+      {% unless post.next %}
+        <h2>{{ post.date | date: '%Y' }}</h2>
+      {% else %}
+        {% capture year %}{{ post.date | date: '%Y-%m' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y-%m' }}{% endcapture %}
+        {% if year != nyear %}
+          <h2>{{ post.date | date: '%Y-%m' }}</h2>
+        {% endif %}
+      {% endunless %}
+
+      <li>
+        {% if post.link %}
+        <a href="{{ post.link }}">
+        {% else %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+        {% endif %}
+          {{ post.title }}
+        </a>
+        <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
 <ul class="archive-month">
       {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%m'" %}
-      {% assign postsByMonthSorted = postsByMonth | sort: 'name' | reverse %}
 
-      {% for month in postsByMonthSorted %}
+      {% for month in postsByMonth %}
       <li class="list-month">
           <ul class="archive-item">
           {% for post in month.items %}
