@@ -64,18 +64,3 @@ permalink: /archive/
   {% endfor %}
 </ul>
 
-<ul class="archive-month">
-      {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%m'" %}
-
-      {% for month in postsByMonth %}
-      <li class="list-month">
-          <ul class="archive-item">
-          {% for post in month.items %}
-          <li class="list-content">    
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-          </ul>
-      </li>
-      {% endfor %}
-    </ul>
