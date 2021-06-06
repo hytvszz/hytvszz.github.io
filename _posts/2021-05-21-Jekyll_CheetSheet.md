@@ -20,16 +20,16 @@ hidden: false
 `<p align="center"> <img src="{% raw %}{{ site.imageurl }}{% endraw %}/澳洲纪念币.jpg"> </p>`    
 不让代码被渲染：mark他们为code   
 不让双大括号被渲染：`{% raw %}{{ " {{ site.imageurl "}} }} {% endraw %}`或者
-{%  assign  openTag  =  '{%'  %}  {%  raw  %}`{% raw %} 大括号变量放这里 {%  endraw  %}{{  openTag  }} endraw %}{%  raw  %}  {%  endraw  %}
+{%  assign  openTag  =  '{%'  %}  {%  raw  %}`{% raw %} 大括号变量放这里 {%  endraw  %}`{{  openTag  }} endraw %}{%  raw  %}  {%  endraw  %}
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTE1ODc4NiwxMzc3NzExNzQ0LDg2ND
-gwMzA1MSwtMjA5NTQ2NTY2LDQyNDAzMTc1NCwyMDgwMzg0OTU3
-LDE3MjY0NTA1MDUsMTk0MTY2NjM1OSwtMzE4ODIwOTg5LC0xMz
-UzMTg0MzM1LDE1Nzc0MTQ3OTIsLTIwMzcxNjI3MjgsLTIxMzE5
-ODAwMTksLTExNzYyMzY1OTYsLTIxMTI4NTc1NjIsMzIyODk1OT
-Y5LC03MjA4NjM0NDUsLTk4Mjk2OTcxNywxMTQwMTkwMzk4LC03
-MjkzMjgzMTNdfQ==
+eyJoaXN0b3J5IjpbNjk3Nzc4OTk4LDEzNzc3MTE3NDQsODY0OD
+AzMDUxLC0yMDk1NDY1NjYsNDI0MDMxNzU0LDIwODAzODQ5NTcs
+MTcyNjQ1MDUwNSwxOTQxNjY2MzU5LC0zMTg4MjA5ODksLTEzNT
+MxODQzMzUsMTU3NzQxNDc5MiwtMjAzNzE2MjcyOCwtMjEzMTk4
+MDAxOSwtMTE3NjIzNjU5NiwtMjExMjg1NzU2MiwzMjI4OTU5Nj
+ksLTcyMDg2MzQ0NSwtOTgyOTY5NzE3LDExNDAxOTAzOTgsLTcy
+OTMyODMxM119
 -->
