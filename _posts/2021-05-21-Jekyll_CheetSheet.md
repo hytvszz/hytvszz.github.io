@@ -15,10 +15,11 @@ hidden: false
 
 [CheetSheet点这里](https://gist.github.com/JJediny/a466eed62cee30ad45e2)
 
-如何
+强行换行：在当前行结尾多加3个空格
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxNzY4MDMyLDE5NDE2NjYzNTksLTMxOD
+eyJoaXN0b3J5IjpbMTk4MTMzMzM3LDE5NDE2NjYzNTksLTMxOD
 gyMDk4OSwtMTM1MzE4NDMzNSwxNTc3NDE0NzkyLC0yMDM3MTYy
 NzI4LC0yMTMxOTgwMDE5LC0xMTc2MjM2NTk2LC0yMTEyODU3NT
 YyLDMyMjg5NTk2OSwtNzIwODYzNDQ1LC05ODI5Njk3MTcsMTE0
