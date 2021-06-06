@@ -16,12 +16,12 @@ hidden: false
 [CheetSheet点这里](https://gist.github.com/JJediny/a466eed62cee30ad45e2)
 
 强行换行：在当前行结尾多加3个空格
-
+加入图片（注意jpg）： <p align="center"> <img src="{{ site.imageurl }}/澳洲纪念币.jpg"> </p> 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTMzMzM3LDE5NDE2NjYzNTksLTMxOD
-gyMDk4OSwtMTM1MzE4NDMzNSwxNTc3NDE0NzkyLC0yMDM3MTYy
-NzI4LC0yMTMxOTgwMDE5LC0xMTc2MjM2NTk2LC0yMTEyODU3NT
-YyLDMyMjg5NTk2OSwtNzIwODYzNDQ1LC05ODI5Njk3MTcsMTE0
-MDE5MDM5OCwtNzI5MzI4MzEzXX0=
+eyJoaXN0b3J5IjpbMTI0MTY4Mzc3NiwxOTQxNjY2MzU5LC0zMT
+g4MjA5ODksLTEzNTMxODQzMzUsMTU3NzQxNDc5MiwtMjAzNzE2
+MjcyOCwtMjEzMTk4MDAxOSwtMTE3NjIzNjU5NiwtMjExMjg1Nz
+U2MiwzMjI4OTU5NjksLTcyMDg2MzQ0NSwtOTgyOTY5NzE3LDEx
+NDAxOTAzOTgsLTcyOTMyODMxM119
 -->
