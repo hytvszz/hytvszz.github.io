@@ -16,13 +16,15 @@ hidden: false
 [CheetSheet点这里](https://gist.github.com/JJediny/a466eed62cee30ad45e2)
 
 强行换行：在当前行结尾多加3个空格   
-加入图片（注意jpg或png）： `<p align="center"> <img src="{{ site.imageurl }}/澳洲纪念币.jpg"> </p>` 
+加入图片（注意jpg或png）：    
+`<p align="center"> <img src="{{ site.imageurl }}/澳洲纪念币.jpg"> </p>`    
 不让代码被渲染：mark他们为code
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDM4NDk1NywxNzI2NDUwNTA1LDE5ND
-E2NjYzNTksLTMxODgyMDk4OSwtMTM1MzE4NDMzNSwxNTc3NDE0
-NzkyLC0yMDM3MTYyNzI4LC0yMTMxOTgwMDE5LC0xMTc2MjM2NT
-k2LC0yMTEyODU3NTYyLDMyMjg5NTk2OSwtNzIwODYzNDQ1LC05
-ODI5Njk3MTcsMTE0MDE5MDM5OCwtNzI5MzI4MzEzXX0=
+eyJoaXN0b3J5IjpbLTEwNzkzMjA2NDUsMjA4MDM4NDk1NywxNz
+I2NDUwNTA1LDE5NDE2NjYzNTksLTMxODgyMDk4OSwtMTM1MzE4
+NDMzNSwxNTc3NDE0NzkyLC0yMDM3MTYyNzI4LC0yMTMxOTgwMD
+E5LC0xMTc2MjM2NTk2LC0yMTEyODU3NTYyLDMyMjg5NTk2OSwt
+NzIwODYzNDQ1LC05ODI5Njk3MTcsMTE0MDE5MDM5OCwtNzI5Mz
+I4MzEzXX0=
 -->
