@@ -19,10 +19,11 @@ hidden: false
 加入图片（1.后缀jpg或png不要写错；2.jpg或者png必须用小写）：    
 `<p align="center"> <img src="{% raw %}{{ site.imageurl }}{% endraw %}/澳洲纪念币.jpg"> </p>`    
 不让代码被渲染：mark他们为code
-不让双大括号被渲染：{% raw %}{{ site.imageurl }}{% endraw %}
+不让双大括号被渲染：{% raw %}{{ site.imageurl }}{% endraw %} 或者 {{ "{{ site.imageurl "}} }} 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDE4MjE0Miw0MjQwMzE3NTQsMjA4MD
+eyJoaXN0b3J5IjpbLTIwOTU0NjU2Niw0MjQwMzE3NTQsMjA4MD
 M4NDk1NywxNzI2NDUwNTA1LDE5NDE2NjYzNTksLTMxODgyMDk4
 OSwtMTM1MzE4NDMzNSwxNTc3NDE0NzkyLC0yMDM3MTYyNzI4LC
 0yMTMxOTgwMDE5LC0xMTc2MjM2NTk2LC0yMTEyODU3NTYyLDMy
