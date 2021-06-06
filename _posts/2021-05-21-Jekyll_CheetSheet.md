@@ -19,12 +19,13 @@ hidden: false
 加入图片（1.后缀jpg或png不要写错；2.jpg或者png必须用小写）：    
 `<p align="center"> <img src="{% raw %}{{ site.imageurl }}{% endraw %}/澳洲纪念币.jpg"> </p>`    
 不让代码被渲染：mark他们为code
+不让
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTUzMDc3NTIsMjA4MDM4NDk1NywxNz
-I2NDUwNTA1LDE5NDE2NjYzNTksLTMxODgyMDk4OSwtMTM1MzE4
-NDMzNSwxNTc3NDE0NzkyLC0yMDM3MTYyNzI4LC0yMTMxOTgwMD
-E5LC0xMTc2MjM2NTk2LC0yMTEyODU3NTYyLDMyMjg5NTk2OSwt
-NzIwODYzNDQ1LC05ODI5Njk3MTcsMTE0MDE5MDM5OCwtNzI5Mz
-I4MzEzXX0=
+eyJoaXN0b3J5IjpbNDI0MDMxNzU0LDIwODAzODQ5NTcsMTcyNj
+Q1MDUwNSwxOTQxNjY2MzU5LC0zMTg4MjA5ODksLTEzNTMxODQz
+MzUsMTU3NzQxNDc5MiwtMjAzNzE2MjcyOCwtMjEzMTk4MDAxOS
+wtMTE3NjIzNjU5NiwtMjExMjg1NzU2MiwzMjI4OTU5NjksLTcy
+MDg2MzQ0NSwtOTgyOTY5NzE3LDExNDAxOTAzOTgsLTcyOTMyOD
+MxM119
 -->
