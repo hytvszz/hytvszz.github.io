@@ -17,11 +17,12 @@ hidden: false
 
 强行换行：在当前行结尾多加3个空格   
 加入图片（注意jpg或png）： `<p align="center"> <img src="{{ site.imageurl }}/澳洲纪念币.jpg"> </p>` 
+不让代码被渲染：mark他们为code
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjQ1MDUwNSwxOTQxNjY2MzU5LC0zMT
-g4MjA5ODksLTEzNTMxODQzMzUsMTU3NzQxNDc5MiwtMjAzNzE2
-MjcyOCwtMjEzMTk4MDAxOSwtMTE3NjIzNjU5NiwtMjExMjg1Nz
-U2MiwzMjI4OTU5NjksLTcyMDg2MzQ0NSwtOTgyOTY5NzE3LDEx
-NDAxOTAzOTgsLTcyOTMyODMxM119
+eyJoaXN0b3J5IjpbMjA4MDM4NDk1NywxNzI2NDUwNTA1LDE5ND
+E2NjYzNTksLTMxODgyMDk4OSwtMTM1MzE4NDMzNSwxNTc3NDE0
+NzkyLC0yMDM3MTYyNzI4LC0yMTMxOTgwMDE5LC0xMTc2MjM2NT
+k2LC0yMTEyODU3NTYyLDMyMjg5NTk2OSwtNzIwODYzNDQ1LC05
+ODI5Njk3MTcsMTE0MDE5MDM5OCwtNzI5MzI4MzEzXX0=
 -->
