@@ -17,11 +17,13 @@ hidden: false
 
 强行换行：在当前行结尾多加3个空格   
 加入图片（注意jpg或png）：    
-`<p align="center"> <img src="{{ site.imageurl }}/澳洲纪念币.jpg"> </p>`    
+`<p align="center"> <img src="```
+{% raw %}
+```{{ site.imageurl }}/澳洲纪念币.jpg"> </p>`    
 不让代码被渲染：mark他们为code
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzkzMjA2NDUsMjA4MDM4NDk1NywxNz
+eyJoaXN0b3J5IjpbLTE4OTIwMzA1MTksMjA4MDM4NDk1NywxNz
 I2NDUwNTA1LDE5NDE2NjYzNTksLTMxODgyMDk4OSwtMTM1MzE4
 NDMzNSwxNTc3NDE0NzkyLC0yMDM3MTYyNzI4LC0yMTMxOTgwMD
 E5LC0xMTc2MjM2NTk2LC0yMTEyODU3NTYyLDMyMjg5NTk2OSwt
