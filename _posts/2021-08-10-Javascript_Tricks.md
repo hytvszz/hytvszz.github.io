@@ -3,7 +3,7 @@ layout: post
 title: "Javascript Tricks"
 date:   2021-08-10
 tags: [IT]
-language : Chinese
+language : English
 comments: true
 author: Zhen
 toc: false
@@ -23,5 +23,5 @@ new Date().toLocaleTimeString();
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5MzEzNzRdfQ==
+eyJoaXN0b3J5IjpbLTc5MzY4MDA3OV19
 -->
