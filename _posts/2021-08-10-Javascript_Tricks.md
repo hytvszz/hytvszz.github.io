@@ -10,6 +10,18 @@ toc: false
 published: true
 hidden: false
 ---
+
+1. To print date/time
+ ```javascript
+new Date().toLocaleString();
+```
+```javascript
+new Date().toLocaleDateString();
+```
+```javascript
+new Date().toLocaleTimeString();
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQ4NDc5MzBdfQ==
+eyJoaXN0b3J5IjpbNjc5MzEzNzRdfQ==
 -->
