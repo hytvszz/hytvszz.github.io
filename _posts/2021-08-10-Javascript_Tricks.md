@@ -21,7 +21,10 @@ new Date().toLocaleDateString();
 ```javascript
 new Date().toLocaleTimeString();
 ```
+```javascript
+new Date().getWeek();
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzY4MDA3OV19
+eyJoaXN0b3J5IjpbOTg4NzkzODExLC03OTM2ODAwNzldfQ==
 -->
