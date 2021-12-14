@@ -16,7 +16,7 @@ hidden: false
 
 然后这个问题似乎是半年前就被注意到了，然后大概是从9月份有人反映连接不上github，一样的http400错误，我估计我现在才遇到是之前的授权一直没有到期，然后公司网站出现了bug，我就清空了一下浏览器的cache，结果各大网站都被sign out，然后这个授权也被清除了。
 
-然而，fa
+然而，发现有个聪明的网友，给了一个workaround[一个workaround](https://github.com/benweet/stackedit/issues/1755)：在弹出网页转到github授权界面的时候，在你点sh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0OTE3NDQ4XX0=
+eyJoaXN0b3J5IjpbLTEzNzQ4MTUzOTJdfQ==
 -->
