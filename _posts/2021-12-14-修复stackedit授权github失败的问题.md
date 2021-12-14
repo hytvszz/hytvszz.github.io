@@ -40,7 +40,7 @@ hidden: false
     }
     }
 
-这段代码
+这段代码会重写stackedit的API请求，具体怎么的magic我就不研究了。大家有需要可以照做。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODc0ODIyNzJdfQ==
+eyJoaXN0b3J5IjpbMTMwMzExNTg2MV19
 -->
