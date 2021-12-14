@@ -10,6 +10,9 @@ toc: false
 published: true
 hidden: false
 ---
+出去一趟回来发现blog的后台编辑器stackedit登录不了github了，弹出来了http400的错误。
+
+查了一下是因为github更新了第三方授权的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTQ0NDc2M119
+eyJoaXN0b3J5IjpbLTE5NTYxOTExOTVdfQ==
 -->
