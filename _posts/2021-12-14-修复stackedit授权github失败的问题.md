@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "修复stackedit授权github失败的问题"
-date:   2021-12-10
+date:   2021-12-14
 tags: [IT]
 language : Chinese
 comments: true
@@ -42,5 +42,5 @@ hidden: false
 
 这段代码会重写stackedit的API请求，具体怎么的magic我就不研究了。大家有需要可以照做。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzExNTg2MV19
+eyJoaXN0b3J5IjpbMTQzMjkxMTA1N119
 -->
