@@ -14,7 +14,9 @@ hidden: false
 
 查了一下是因为github更新了第三方授权的API token格式还是什么的。然后stackedit的管理员一直没有merge[热心网友的这个fix](https://github.com/benweet/stackedit/pull/1724)。
 
-然后这个问题似乎是半年前就发生了，不知道
+然后这个问题似乎是半年前就被注意到了，然后大概是从9月份有人反映连接不上github，一样的http400错误，我估计我现在才遇到是之前的授权一直没有到期，然后公司网站出现了bug，我就清空了一下浏览器的cache，结果各大网站都被sign out，然后这个授权也被清除了。
+
+然而，fa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTczMTQzNDddfQ==
+eyJoaXN0b3J5IjpbNjk0OTE3NDQ4XX0=
 -->
