@@ -11,58 +11,39 @@ toc: false
 published: true
 hidden: false
 ---
-今天看鹿鼎记解说，看到了断袖分桃的梗，非常有意思。来盘点一下关于同性恋的词语把。
+`SessionOptions sessionOptions = new SessionOptions { Protocol = Protocol.Sftp, HostName = "b2btest.myer.com.au", PortNumber = 980, UserName = "evolve", //PrivateKeyPassphrase = "", SshHostKeyFingerprint = "LKcrHlDXpe9Nlr2QayQID4U4U0FKLKpYAwV4PkQSrik", SshPrivateKeyPath = Path.Combine(Directory.GetCurrentDirectory(), "myer.ppk"), };`
 
-## 1.LGBTQIA
-不知道从什么时候起，性别分男女都是歧视了。可能和我一个年龄段的，知道男同（Gay）女同（Lesbian）这两个词，就不错了，现在又整出这么多分类。国内可能用的少，但是鉴于国外的思想自由，尤其是各种dating app都要求写性向，很多词不得不谷歌一下才整明白。刚才提到了Lesbian和Gay，而Bisexual双性恋男女通吃，也比较好理解，剩下的介绍一下。
+**passphrase**, not set, choose empty, can ignore.
 
-### 1.1 Transgender（跨性别）
-最复杂的一类。首先和同性恋最大的区别是，跨性别是自我性别认同，也就是男生觉得自己是女生，或者女生觉得自己是男生，至于他们喜欢男生还是女生，完全各种可能，所以**跨性别者可以是异性恋、同性恋、双性恋**。不过有点绕的是，如果本身是男生，自认为是女生，那么应该是喜欢女生才算同性恋，喜欢男生反而应该算异性恋。。。
+**fingerprint**, tried my own fingerprint when generate key pair:
 
-我们俗称的变性人（手术过）和人妖（很多没有生理手术）都算是跨性别，还有之前大家新闻经常看到的异装癖，喜欢打扮成异性的，都算是跨性别，尤其是现在被大家群嘲的，玩烂的梗，因为很多人就是完全生理上看起来就是男生，就是宣称自己是女生，这也是跨性别了。
+J556EDT42c/Te7kDL+ZaGQm4fxX1Pv9WjUhHnfyTQP0
 
-### 1.2 Queer（酷儿）
-酷兒或疑性戀，是用來代表還在摸索，**還不確定自己性別或性向為何的人**。很多不想被其他定義明確的標籤束縛的性小眾，也會用這個名詞來介紹自己。
+not working,
 
-### 1.3 Intersex（雙性人）
-就是字面意义，XXY染色体导致的可能**有两套生殖系统的人**。传说中的元首和梦露那样的。很少见到。
+get it from the error when running the code:
 
-### 1.4 Asexual（無性戀）
-越来越多的人走性冷淡风，经常可以看到有人宣称自己是Asexual，也就是**对性不感兴趣的人**。但是注意这里的性只是sex，人家虽然对性不感兴趣，但是对感情还是有兴趣的。并且**无性恋的感情寄托也有可能是同性、异性等等**。
+WinSCP.SessionRemoteException: 'Host key does not match configured key fingerprint "J556EDT42c/Te7kDL+ZaGQm4fxX1Pv9WjUhHnfyTQPO"!  
+**Host key fingerprint is ssh-rsa 1024 LKcrHlDXpe9Nlr2QayQID4U4U0FKLKpYAwV4PkQSrik.**
 
-## 2.男同性恋
-男同性恋的名词可太多了。但是对于男同性恋双方，我们一般称之为**攻和受，其实来自于二次元**。现在大家也多用1和0代表。很显而易见，**攻就是主动那一方，受是被动那一方**。在英文里，一般用top和bottom指代，还有一个verse，是说1和0都可以当的。
+`SshPrivateKeyPath` : generate client public/private key pari by
 
-### 2.1 基友
-这是因为**Gay在粤语里头发音同基**，所以基友、基佬就是这么来的。
+[![](https://www.jscape.com/hubfs/JSCAPE%20%E2%80%94%20Icon%20%E2%80%94%20Blue@4x.png)Setting Up SFTP Public Key Authentication On The Command Line | JSCAPE](https://www.jscape.com/blog/setting-up-sftp-public-key-authentication-command-line)
 
-### 2.2 同志
-这个是1989年，香港艺术家林奕华想办一个同性恋电影节。其时香港社会风气保守，直接大大咧咧叫同性恋电影节显然不合时宜，于是他想到了孙中山先生所说的“革命尚未成功，同志仍需努力”，于是**以“同志”来暗指同性恋**
+then send myer the public key to validate, using my own private key id_rsa
 
-### 2.3 断背
-**出自李安的同性爱题材电影《断背山》**。电影《断背山》讲的是两个小伙子之间一段长达20年的感情纠葛。断背隐喻同性恋，现在网上很流行用“断背”来代替“同志”。
+not working as the format error, the error got from running code: OpenSSH SSH-2 private key (new format)
 
-### 2.4 玻璃
-这个有点难懂，但是如果你懂一点英文，其实很简单，因为**Boy's Love缩写BL**，大家就习惯说玻璃了。
+need to convert to xxxx.ppk format
 
-### 2.5 龙阳之好
-魏王与龙阳君为同性恋者，同床共枕，甚为宠爱。一日，魏王与龙阳君同船钓鱼，龙阳君钓得十几条鱼，竟然哭了起来，魏王惊讶的问其缘故，龙阳君谓初钓得一鱼非常高兴，后钓得越来越大，便将小鱼丢弃。由此思己，四海之内，美人颇多，害怕魏王宠爱其他的美人，必将抛弃自己，所以流泪。魏王为了不让龙阳君伤心忧虑，下令举国禁论美人，违禁者满门抄斩，以表其爱龙阳君
+**download Putty, find puttygen after install, load private key file, save private key as myer.ppk**
 
-### 2.6 断袖
-断袖之癖指的是西汉的汉哀帝与董贤董圣卿的故事；讲的是哀帝要起身上朝，但是睡在旁边的董贤却压住了他的一个衣袖，哀帝不忍叫醒董贤，于是割断了被董贤压住的袖子。
+![](blob:https://theevolvedgroup.atlassian.net/6b57f571-2384-4d14-91b7-3c23012d170a#media-blob-url=true&id=ccb4ddcc-ce98-464e-90c4-b95e06f6c3c3&collection=&contextId=39505&height=572&width=792&alt=)
 
-### 2.7 分桃
-讲春秋的卫灵公与弥子瑕。弥子瑕摘了桃子，先尝甜不甜，然后将剩下的给卫灵公尝。
+when writing file, myer server does not support edit timestamp
 
-## 3.女同性恋
-鉴于古代社会地位，女同性恋好像比男同性恋更弱势一点，所以流传下来的词也没那么多。和男同性恋相同，在英文中也是用top和bottom来形容更主动和被动的一方。不同的是，还有一种我们常用的方法是攻一方用T（tomboy假小子）表示，而女性一方用P（PrettyGirl）表示。
-
-### 3.1 蕾丝边、拉拉
-都出自英文的lesbian，一个是音译，一个是在音译上演绎出来的。
-
-### 3.2 磨镜、磨豆腐
-都是古代对女同的代称，因为女性的性交常见做法是，两个人双腿岔开，阴部交叠，摩擦，很像在磨东西。
-
+[![](https://winscp.net/favicon.ico)Upload of file .. was successful, but error occurred while setting the permissions and/or timestamp. If the problem persists, turn off setting permissions or preserving timestamp. Alternatively you can turn on ‘Ignore permission errors’ option. :: WinSCP](https://winscp.net/eng/docs/message_preserve_time_perm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDg1NzI1ODZdfQ==
+eyJoaXN0b3J5IjpbLTE2OTA5ODk3MTQsLTE4NDg1NzI1ODZdfQ
+==
 -->
