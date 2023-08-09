@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "通过privateKey连接SFTP"
@@ -44,6 +43,6 @@ when writing file, myer server does not support edit timestamp
 
 [![](https://winscp.net/favicon.ico)Upload of file .. was successful, but error occurred while setting the permissions and/or timestamp. If the problem persists, turn off setting permissions or preserving timestamp. Alternatively you can turn on ‘Ignore permission errors’ option. :: WinSCP](https://winscp.net/eng/docs/message_preserve_time_perm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTA5ODk3MTQsLTE4NDg1NzI1ODZdfQ
-==
+eyJoaXN0b3J5IjpbLTE5MjczOTU1MjAsLTE2OTA5ODk3MTQsLT
+E4NDg1NzI1ODZdfQ==
 -->
